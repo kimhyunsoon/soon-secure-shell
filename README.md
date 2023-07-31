@@ -11,17 +11,17 @@ A simple SSH connection helper to alleviate some hassle.
 mkdir ~/soon-ssh/keys
 ```
 ```bash
-mv $YOUR_EXISTING_KEY ~/soon-secure-shell/keys/$YOUR_EXISTING_KEY .key
+mv $YOUR_EXISTING_KEY ~/soon-ssh/keys/$YOUR_EXISTING_KEY .key
 ```
 
-3. Create a soon-secure-shell/conf file with the following content:
+3. Create a `soon-ssh/conf` file with the following content:
 
 ```bash
 #$CONNECTION_NAME1=$USERNAME1@$HOST1
 #$CONNECTION_NAME2=$USERNAME2@$HOST2
 ```
 
-3. Execute `soon-ssh.sh` and enter the **$CONNECTION_NAME** when prompted.
+3. Execute `ssh.sh` and enter the **$CONNECTION_NAME** when prompted.
 
 ```bash
 bash ssh.sh
