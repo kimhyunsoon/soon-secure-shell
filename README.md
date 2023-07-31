@@ -1,26 +1,26 @@
 ![image](https://github.com/kimhyunsoon/soon-secure-shell/assets/60641694/99755db2-76b3-463e-a364-7e5520c9a162)
 
 # soon-ssh
-귀찮음을 조금은 덜어줄 간단한 ssh 접속 도우미
+A simple SSH connection helper to alleviate some hassle.
 
 # Setup
-1. **사용하던 키파일**을 `soon-secure-shell/keys/` 에 저장해주세요. (확장자 변경: .key)
+1. Save **your existing key file** to `soon-secure-shell/keys/` with the .key extension.
 
    ```bash
    mkdir ~/soon-secure-shell/keys
    ```
    ```bash
-   mv $기존키 ~/soon-secure-shell/keys/$기존키.key
+   mv $YOUR_EXISTING_KEY ~/soon-secure-shell/keys/$YOUR_EXISTING_KEY .key
    ```
 
-3. `soon-secure-shell/conf` 파일을 작성해주세요.
+3. Create a soon-secure-shell/conf file with the following content:
 
    ```bash
-   #$접속명1=$계정명1@$호스트1
-   #$접속명2=$계정명2@$호스트2  
+   #$CONNECTION_NAME1=$USERNAME1@$HOST1
+   #$CONNECTION_NAME2=$USERNAME2@$HOST2
    ```
 
-3. `soon-ssh.sh`를 실행 후 **$접속명**을 입력해주세요.
+3. Execute `soon-ssh.sh` and enter the **$CONNECTION_NAME** when prompted.
 
    ```bash
    bash soon-ssh.sh
@@ -34,5 +34,5 @@
    \/\____/\ \____/\ \____/\ \_\ \_\/______/\/\____/\/\____/\ \_\ \_\
     \/___/  \/___/  \/___/  \/_/\/_/         \/___/  \/___/  \/_/\/_/
    
-   HostName: $접속명
+   HostName: $CONNECTION_NAME
    ```
