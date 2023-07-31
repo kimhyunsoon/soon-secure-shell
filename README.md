@@ -3,7 +3,7 @@
 # soon-ssh
 A simple SSH connection helper to alleviate some hassle.
 
-# Setup
+# How to Apply
 1. Save **your existing key file** to `soon-secure-shell/keys/` with the .key extension.
 
    ```bash
