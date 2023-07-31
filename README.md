@@ -4,10 +4,11 @@
 A simple SSH connection helper to alleviate some hassle.
 
 # How to Apply
-1. Save **your existing key file** to `soon-secure-shell/keys/` with the .key extension.
+0. Git Clone this Repository
+1. Save **your existing key file** to `soon-ssh/keys/` with the .key extension.
 
 ```bash
-mkdir ~/soon-secure-shell/keys
+mkdir ~/soon-ssh/keys
 ```
 ```bash
 mv $YOUR_EXISTING_KEY ~/soon-secure-shell/keys/$YOUR_EXISTING_KEY .key
@@ -23,7 +24,7 @@ mv $YOUR_EXISTING_KEY ~/soon-secure-shell/keys/$YOUR_EXISTING_KEY .key
 3. Execute `soon-ssh.sh` and enter the **$CONNECTION_NAME** when prompted.
 
 ```bash
-bash soon-ssh.sh
+bash ssh.sh
 ```
 ```bash
                                                         __
