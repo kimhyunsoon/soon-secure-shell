@@ -1,4 +1,4 @@
-![image](https://github.com/kimhyunsoon/soon-secure-shell/assets/60641694/99755db2-76b3-463e-a364-7e5520c9a162)
+![image](https://github.com/kimhyunsoon/soon-secure-shell/assets/60641694/3b5891c9-b0fb-4581-a2ae-ea00f0126893)
 
 # soon-ssh
 A simple SSH connection helper to alleviate some hassle.
